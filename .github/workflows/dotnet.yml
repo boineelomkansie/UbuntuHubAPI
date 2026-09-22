@@ -22,10 +22,10 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore UbuntuHub.Api/UbuntuHub.Api.slnx
 
       - name: Build solution
-        run: dotnet build --no-restore --configuration Release
+        run: dotnet build UbuntuHub.Api/UbuntuHub.Api.slnx --no-restore --configuration Release
 
       - name: Run automated tests
-        run: dotnet test --no-build --configuration Release
+        run: dotnet test UbuntuHub.Api/UbuntuHub.Api.slnx --no-build --configuration Release
