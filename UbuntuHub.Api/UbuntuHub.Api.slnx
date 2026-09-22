@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="UbuntuHub.Api.Tests/UbuntuHub.Api.Tests.csproj" />
+  <Project Path="UbuntuHub.Api/UbuntuHub.Api.csproj" />
+</Solution>
